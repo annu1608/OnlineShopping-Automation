@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+
+   <listener class-name ="ShoppingOnline.TestComponents.Listeners"/>
+
+</listeners>
+
+ <groups>
+   <run>
+  
+        <include name="Search"/>
+        <include name="Results"/>
+  
+   </run>
+ </groups>
+
+  <test thread-count="5" name="Include Test">
+    <classes>
+      <class name="ShoppingOnline.Tests.ValidateLoginTest"/>
+      <class name="ShoppingOnline.Tests.ValidateSignOutTest"/>
+      <class name="ShoppingOnline.Tests.ValidateAddCartTest"/>
+      <class name="ShoppingOnline.Tests.ValidateSearchResultTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   
+  
+  
+</suite> <!-- Suite -->

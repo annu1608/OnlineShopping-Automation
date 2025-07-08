@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ShoppingOnline.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="All Cases Test(failed)">
+    <classes>
+      <class name="ShoppingOnline.Tests.ValidateLoginTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="InvalidLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ShoppingOnline.Tests.ValidateLoginTest -->
+    </classes>
+  </test> <!-- All Cases Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

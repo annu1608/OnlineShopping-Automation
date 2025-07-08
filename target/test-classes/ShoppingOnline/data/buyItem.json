@@ -1,0 +1,21 @@
+[
+{
+
+"userName"         : "Annu",
+"email"            : "annu.crpf@gmail.com",
+"password"         : "Annu@123",
+"categories"       : "Baby",
+"searchBy"         : "baby oil",
+"desiredProduct"   : "Cetaphil Baby Massage Oil, 200 ml, White",
+"RequiredCartItem" : "Cetaphil Baby Massage Oil, 200 ml, White"
+}
+,
+{
+
+"email"            : "annu.crpf@gmail.com",
+"password"         : "Annu@1234"
+
+
+}
+
+]

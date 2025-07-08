@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite  parallel = "tests"  name="FirstSuit">
+
+<listeners>
+
+   <listener class-name ="ShoppingOnline.TestComponents.Listeners"/>
+
+</listeners>
+
+ <test thread-count="5" name="Sign In Exclude Test">
+    <classes>
+     <class name="ShoppingOnline.Tests.ValidateInValidLoginTest">
+      <methods>
+        <exclude name="InvalidLogin" />
+      </methods>
+     </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Sign Out Test">
+    <classes>
+      <class name="ShoppingOnline.Tests.ValidateSignOutTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
